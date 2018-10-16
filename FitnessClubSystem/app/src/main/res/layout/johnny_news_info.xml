@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top2" />
+
+    <ImageView
+        android:id="@+id/img_news"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="140dp"
+        android:background="@mipmap/head" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:text="新闻标题"
+        android:textColor="#636363" />
+
+    <TextView
+        android:id="@+id/text_course_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="50"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"
+        android:text="      新闻内容：申诉三十岁所所所所所所所所申诉三十岁所所所所所所所所，申诉三十岁所所所所所所所所申诉三十岁所所所所所所所所申诉三十岁所所所所所所所所申诉三十岁所所所所所所所所！"
+        android:textColor="#636363" />
+
+</LinearLayout>

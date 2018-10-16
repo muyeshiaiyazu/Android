@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fitness Club System</string>
+    //主界面
+    <string name="main_text_title">424健身俱乐部</string>
+    <string name="main_button_login">登录</string>
+    <string name="main_button_register">注册</string>
+    //登录界面
+    <string name="login_text_name">输入账户</string>
+    <string name="login_text_password">输入密码</string>
+    <string name="login_button_sure">登录</string>
+    //注册界面
+    <string name="register_text_name">输入账户</string>
+    <string name="register_text_password">输入密码</string>
+    <string name="register_text_surepassword">确认密码</string>
+    <string name="register_text_status">注册身份</string>
+    <string name="register_button_sure">注册</string>
+
+    //管理员界面
+    //教练界面
+    //成员界面
+    //教练课程界面
+    //成员课程界面
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    android:minHeight="100dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_weight="2"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/img_news"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp">
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标题"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"/>
+        <TextView
+            android:id="@+id/news_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:maxLines="1"
+            android:text="内容" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:gravity="right">
+        <TextView
+            android:id="@+id/news_publish_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TIME"
+            android:textSize="13sp"
+            android:paddingRight="10dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="right"
+        android:paddingBottom="5dp"
+        android:paddingTop="30dp">
+
+        <ImageView
+            android:id="@+id/img_news_read"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@mipmap/read_news"/>
+    </RelativeLayout>
+
+</LinearLayout>

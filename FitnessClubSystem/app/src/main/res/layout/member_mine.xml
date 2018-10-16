@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/PersonalMainLayoutStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/top" />
+
+    <RelativeLayout style="@style/FindBottomStyle">
+
+        <ImageView
+            android:id="@+id/img_member_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:background="@mipmap/name" />
+
+        <TextView
+            android:id="@+id/text_member_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/img_member_name"
+            android:text="姓名"
+            android:textColor="#636363" />
+
+        <ImageView
+            android:id="@+id/img_member_name_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_right_arrow" />
+
+        <TextView
+            android:id="@+id/text_member_true_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/img_member_name_right"
+            android:text="保护我方冉旭松" />
+
+        <ImageView
+            android:id="@+id/member_name_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#efeeee" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/FindBottomStyle">
+
+        <ImageView
+            android:id="@+id/img_member_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:background="@mipmap/sex" />
+
+        <TextView
+            android:id="@+id/text_member_user_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/img_member_sex"
+            android:text="性别"
+            android:textColor="#636363" />
+
+        <ImageView
+            android:id="@+id/img_member_sex_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_right_arrow" />
+
+        <TextView
+            android:id="@+id/text_member_true_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/img_member_sex_right"
+            android:text="女" />
+
+        <ImageView
+            android:id="@+id/member_sex_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#efeeee" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/FindBottomStyle">
+
+        <ImageView
+            android:id="@+id/img_member_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:background="@mipmap/phone" />
+
+        <TextView
+            android:id="@+id/text_member_user_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/img_member_phone"
+            android:text="联系方式"
+            android:textColor="#636363" />
+
+        <ImageView
+            android:id="@+id/img_member_phone_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_right_arrow" />
+
+        <TextView
+            android:id="@+id/text_member_true_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/img_member_phone_right"
+            android:text="123456789" />
+
+        <ImageView
+            android:id="@+id/member_phone_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#efeeee" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/FindBottomStyle">
+
+        <ImageView
+            android:id="@+id/img_member_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:background="@mipmap/introduction" />
+
+        <TextView
+            android:id="@+id/text_member_user_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/img_member_info"
+            android:text="简介"
+            android:textColor="#636363" />
+
+        <ImageView
+            android:id="@+id/img_member_info_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_right_arrow" />
+
+        <TextView
+            android:id="@+id/text_member_true_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/img_member_info_right"
+            android:text="没有个性签名" />
+
+        <ImageView
+            android:id="@+id/member_info_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#efeeee" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/FindBottomStyle">
+
+        <ImageView
+            android:id="@+id/img_member_courses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:background="@mipmap/course" />
+
+        <TextView
+            android:id="@+id/text_member_user_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/img_member_courses"
+            android:text="我的课程"
+            android:textColor="#636363" />
+
+        <ImageView
+            android:id="@+id/img_member_course_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_right_arrow" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/text_true_password"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_toLeftOf="@id/img_password_right"-->
+        <!--android:text="查看课程" />-->
+
+        <ImageView
+            android:id="@+id/member_course_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#efeeee" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/FindBottomStyle">
+
+        <ImageView
+            android:id="@+id/img_member_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:background="@mipmap/changepassword" />
+
+        <TextView
+            android:id="@+id/text_member_user_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/img_member_password"
+            android:text="修改密码"
+            android:textColor="#636363" />
+
+        <ImageView
+            android:id="@+id/img_member_password_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_right_arrow" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/text_true_password"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_toLeftOf="@id/img_password_right"-->
+        <!--android:text="点此修改密码" />-->
+
+        <ImageView
+            android:id="@+id/member_password_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#efeeee" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/FindBottomStyle">
+
+        <ImageView
+            android:id="@+id/img_member_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:background="@mipmap/about" />
+
+        <TextView
+            android:id="@+id/text_member_user_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/img_member_about"
+            android:text="关于"
+            android:textColor="#636363" />
+
+        <ImageView
+            android:id="@+id/img_member_about_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/ic_right_arrow" />
+
+        <!--<TextView-->
+        <!--android:id="@+id/text_true_password"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_toLeftOf="@id/img_password_right"-->
+        <!--android:text="查看课程" />-->
+
+        <ImageView
+            android:id="@+id/member_about_bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#efeeee" />
+    </RelativeLayout>
+</LinearLayout>
